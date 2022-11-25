@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/count5.jpg') center center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col {
+    width: 1000px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.col div {
+
+    width: 250px;
+    text-align: center;
+}
+
+input {
+
+    height: 70px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 28px;
+
+
+}
+
+.col label {
+    font-size: 19px;
+
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        margin-right: 32px;
+    }
+
+    .col {
+        width: 82%;
+    }
+}
